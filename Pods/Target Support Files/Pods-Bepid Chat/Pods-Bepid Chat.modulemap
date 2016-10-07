@@ -1,0 +1,6 @@
+framework module Pods_Bepid_Chat {
+  umbrella header "Pods-Bepid Chat-umbrella.h"
+
+  export *
+  module * { export * }
+}
