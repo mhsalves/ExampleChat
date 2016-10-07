@@ -4,10 +4,10 @@
 use_frameworks!
 
 target 'Bepid Chat' do
-
-pod 'Firebase/Core'
+pod 'Firebase’ 
+pod 'Firebase/Storage'
+pod 'Firebase/Database'
 pod 'Firebase/Auth'
-pod 'Firebase/Database’
-
+pod 'Firebase/Core'
 end
 
