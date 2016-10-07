@@ -500,7 +500,7 @@
         <!--Recuperar de senha-->
         <scene sceneID="0RU-Tu-U3e">
             <objects>
-                <viewController id="KzW-cy-CW0" sceneMemberID="viewController">
+                <viewController id="KzW-cy-CW0" customClass="EsqueciSenhaViewController" customModule="Bepid_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CbC-dB-fPj"/>
                         <viewControllerLayoutGuide type="bottom" id="GSJ-Yh-C3A"/>
@@ -527,8 +527,16 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Recuperar de senha" id="Tpk-mI-Pth">
-                        <barButtonItem key="rightBarButtonItem" title="Enviar" id="LvO-Qx-G15"/>
+                        <barButtonItem key="rightBarButtonItem" title="Enviar" id="LvO-Qx-G15">
+                            <connections>
+                                <action selector="actionEnviar:" destination="KzW-cy-CW0" id="UCV-G0-Ik1"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="btEnvair" destination="LvO-Qx-G15" id="9gU-SR-ZGd"/>
+                        <outlet property="tfEmail" destination="mga-Es-3qK" id="cM1-lD-G17"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KZ3-73-HqX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

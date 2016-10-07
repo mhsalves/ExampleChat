@@ -14,6 +14,7 @@
 		9FD7DB601DA81EB200719A0D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9FD7DB5F1DA81EB200719A0D /* GoogleService-Info.plist */; };
 		9FD7DB621DA81F7100719A0D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DB611DA81F7100719A0D /* LoginViewController.swift */; };
 		9FD7DB651DA8239600719A0D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DB641DA8239600719A0D /* Extensions.swift */; };
+		9FD7DB671DA827E200719A0D /* EsqueciSenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DB661DA827E200719A0D /* EsqueciSenhaViewController.swift */; };
 		D064C0665A4783AE8937D3AD /* Pods_Bepid_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F112C7A11C8ADF3494EB2C7A /* Pods_Bepid_Chat.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		9FD7DB5F1DA81EB200719A0D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9FD7DB611DA81F7100719A0D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		9FD7DB641DA8239600719A0D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9FD7DB661DA827E200719A0D /* EsqueciSenhaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EsqueciSenhaViewController.swift; sourceTree = "<group>"; };
 		BC2AB989B8EF9ADE5C67BE70 /* Pods-Bepid Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bepid Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bepid Chat/Pods-Bepid Chat.release.xcconfig"; sourceTree = "<group>"; };
 		C8672CDE041938BE53B5578C /* Pods-Bepid Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bepid Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bepid Chat/Pods-Bepid Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		F112C7A11C8ADF3494EB2C7A /* Pods_Bepid_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bepid_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				9FD7DB611DA81F7100719A0D /* LoginViewController.swift */,
+				9FD7DB661DA827E200719A0D /* EsqueciSenhaViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9FD7DB671DA827E200719A0D /* EsqueciSenhaViewController.swift in Sources */,
 				9FD7DB621DA81F7100719A0D /* LoginViewController.swift in Sources */,
 				9FD7DB651DA8239600719A0D /* Extensions.swift in Sources */,
 				9F64D89E1DA7FB470000762F /* AppDelegate.swift in Sources */,
