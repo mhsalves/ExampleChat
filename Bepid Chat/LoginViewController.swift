@@ -46,10 +46,7 @@ class LoginViewController: UIViewController {
                         self.alertar(titulo: "Erro", mensagem: error.localizedDescription)
                         self.habilitarUI(true)
                     } else {
-                        
-                        let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainController") as! UITabBarController
-                        self.present(vc, animated: true, completion: nil)
-                        
+                        self.enviarParaMainController()
                     }
                     
                 }

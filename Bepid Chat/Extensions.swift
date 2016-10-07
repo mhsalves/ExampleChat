@@ -19,4 +19,9 @@ extension UIViewController {
         self.present(alert, animated: true, completion: nil)
     }
     
+    func enviarParaMainController() {
+        let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainController") as! UITabBarController
+        self.present(vc, animated: true, completion: nil)
+    }
+    
 }

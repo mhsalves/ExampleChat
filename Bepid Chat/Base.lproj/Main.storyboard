@@ -111,7 +111,7 @@
         <!--Criar conta-->
         <scene sceneID="MPn-W2-n3v">
             <objects>
-                <viewController id="j63-wN-cjD" sceneMemberID="viewController">
+                <viewController id="j63-wN-cjD" customClass="CriarContaViewController" customModule="Bepid_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="fQ5-Rx-KbZ"/>
                         <viewControllerLayoutGuide type="bottom" id="vAO-UR-Wt6"/>
@@ -155,8 +155,18 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Criar conta" id="zbJ-oj-gzO">
-                        <barButtonItem key="rightBarButtonItem" title="Enviar" id="ocb-Wo-PoE"/>
+                        <barButtonItem key="rightBarButtonItem" title="Enviar" id="ocb-Wo-PoE">
+                            <connections>
+                                <action selector="actionEnviar:" destination="j63-wN-cjD" id="zNk-88-UrL"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="btEnviar" destination="ocb-Wo-PoE" id="Xr4-je-58d"/>
+                        <outlet property="tfEmail" destination="Tzw-Uz-994" id="LEa-Uu-A3B"/>
+                        <outlet property="tfNome" destination="W69-am-r7A" id="eKK-e1-YjO"/>
+                        <outlet property="tfSenha" destination="EMd-Hn-vCR" id="rlm-vw-wfa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="D1O-RP-XyP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
