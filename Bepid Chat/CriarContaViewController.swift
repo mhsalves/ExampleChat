@@ -8,7 +8,6 @@
 
 import UIKit
 import Firebase
-import FirebaseAuth
 
 class CriarContaViewController: UIViewController {
 
@@ -39,7 +38,7 @@ class CriarContaViewController: UIViewController {
                     self.alertar(titulo: "Erro", mensagem: error.localizedDescription)
                     return
                 }
-                self.setDisplayName(user!)
+                self.setDisplayName(user!, paraNome: nome)
                 
             }
             
@@ -49,9 +48,9 @@ class CriarContaViewController: UIViewController {
         
     }
     
-    func setDisplayName(_ user: FIRUser) {
+    func setDisplayName(_ user: FIRUser, paraNome nome : String) {
         let changeRequest = user.profileChangeRequest()
-        changeRequest.displayName = user.email!.components(separatedBy: "@")[0]
+        changeRequest.displayName = nome
         changeRequest.commitChanges(){ (error) in
             if let error = error {
                 print(error.localizedDescription)

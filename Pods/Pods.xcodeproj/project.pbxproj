@@ -10,16 +10,19 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>01D56672331D5B8B91F992C1422143D2</key>
+		<key>024C103848113AEF76AC5A742AF80B75</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>D75399519496A0DBD28CF84734A3DDC7</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-Bepid Chat.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>03F10EA88AB373ECF1F216F26159D846</key>
 		<dict>
@@ -47,10 +50,98 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>05E84D055894544D21B1595FC6C53FE4</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>C71637A7D81F1864736811B6E130080B</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods/Pods.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>0A865EDB8E416E9F3604545D38A1C5E1</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0BE0FD4AE915E8D2D170FB9DE9BA3693</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-Bepid Chat-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>0CBFF0EDA34E30B1AC8D0215FC1A6F0E</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>ADDBB61243399A1B86C185E50281FF9C</string>
+			<string>B683545647B9C471119E38BD553DAE45</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -109,6 +200,19 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>0DC45AE6042746EA4B00055BDF649C94</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>111605FC604AC33BF333AC20CE6B158F</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -121,6 +225,55 @@
 			<string>PBXFrameworksBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
+		</dict>
+		<key>139989063F6EBA302F92B43722881B98</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>9D282D7B56ED19A52694475DE484C325</string>
+				<string>A6B5EDA3F63A26087965A56784658349</string>
+				<string>E2E777489EBC0BF8E1E80B87F0F9996A</string>
+				<string>0A865EDB8E416E9F3604545D38A1C5E1</string>
+				<string>F3E2A571D5E0ADDE8794CB3438F086BC</string>
+				<string>A7EC37C3106D8B9A97AB634BC8B4F31C</string>
+				<string>DBEBF772BEEDBC4E535CFD3C970E8919</string>
+				<string>D75399519496A0DBD28CF84734A3DDC7</string>
+				<string>B675907C2277F3D7ED841207B7955E44</string>
+				<string>C71637A7D81F1864736811B6E130080B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>path</key>
+			<string>Target Support Files/Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1BA84416B19DF31967CCD7D02D962E49</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>E151796BBCB376D96AD1C38DD0B21AC6</string>
+			<key>buildPhases</key>
+			<array>
+				<string>94E92B28A5AF3478251705B46FC8586F</string>
+				<string>F3168C673007601935FDD8CF0A0C1C66</string>
+				<string>59A00F9704B6AFE0A9DC699A4B8B033F</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>C94229B92B6A3D325F2D69DC925974A2</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
 		</dict>
 		<key>1C4D490A81F158DDAB65E7CC8D90A85F</key>
 		<dict>
@@ -135,18 +288,12 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>23F0D4C65351E39A5556A5A8A2AA24B1</key>
+		<key>1E615E9CA3F7C983E82758A5B9F64D21</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>fileRef</key>
+			<string>F3E2A571D5E0ADDE8794CB3438F086BC</string>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-Bepid Chat-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
 		<dict>
@@ -177,33 +324,67 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>30EC113CB4A7D665E0973187200E46B0</key>
+		<key>3357DC108E90E5D60583210E57BFAFBB</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
+			<key>baseConfigurationReference</key>
+			<string>B675907C2277F3D7ED841207B7955E44</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>10.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods/Pods.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
 			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>XCBuildConfiguration</string>
 			<key>name</key>
-			<string>Pods_Bepid_Chat.framework</string>
-			<key>path</key>
-			<string>Pods_Bepid_Chat.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>326706C4F2886A86803C1474C95D8192</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-Bepid Chat-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>Debug</string>
 		</dict>
 		<key>33864FFF651E0EF55A0E9AC7F8E255A4</key>
 		<dict>
@@ -233,16 +414,30 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>33D3B360006E05CF093C5269A42A2D16</key>
+		<key>340169107C51E1818FBD8BA84083B4DA</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-Bepid Chat-dummy.m</string>
+			<string>Pods-Bepid Chat-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3629DD1623ED7C5A3F39F8FECC09F6DD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C94229B92B6A3D325F2D69DC925974A2</string>
+				<string>B8AEB2924F0046B93ADE9C539418DF73</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -335,7 +530,7 @@
 		<key>3F44CDE0E25FF39B4327FC941961AE97</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B8A0A371ACA3CEA1E95692CEBB114BB3</string>
+			<string>0BE0FD4AE915E8D2D170FB9DE9BA3693</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -346,10 +541,23 @@
 				</array>
 			</dict>
 		</dict>
+		<key>42433D61D23DA924EC1C2C12FAB5763D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-Bepid Chat-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>44FF57C776E28E5923FA643F00E381A6</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E1E43A1543E2262D9DC2E40D92133EB1</string>
+			<string>A32DCB9FF1680770F7D529A811028A47</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -424,7 +632,7 @@
 		<key>4AAD50DE3764C9D9B4640884ECCB23B6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>33D3B360006E05CF093C5269A42A2D16</string>
+			<string>6E40FB5293A27F60EFFFEBAA76A2D13D</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -441,6 +649,13 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>4F53192D75EB99D6C9B6BE7F2A55ECD7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>51C2AF5031C03E9F970C87F710EA4957</key>
 		<dict>
@@ -483,6 +698,30 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>59A00F9704B6AFE0A9DC699A4B8B033F</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>024C103848113AEF76AC5A742AF80B75</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5E57452F42BD4682DFEB97E1933D6373</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-Bepid Chat.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>667DFC9C3CA7BD538FDCF7C6E44A1C5D</key>
 		<dict>
 			<key>isa</key>
@@ -509,16 +748,16 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6B5B7A11AAC270FF68A99CEF5DFFAC62</key>
+		<key>6E40FB5293A27F60EFFFEBAA76A2D13D</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>Pods-Bepid Chat-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -532,19 +771,6 @@
 			<string>GoogleNetworkingUtilities.framework</string>
 			<key>path</key>
 			<string>Frameworks/frameworks/GoogleNetworkingUtilities.framework</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72E2725C2DD322E9ADD6D21C4C9B1A64</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Bepid Chat-frameworks.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -588,8 +814,8 @@
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
 				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
 				<string>9060B306DA2FFF9E9431F331F6716F6E</string>
-				<string>92FEF5F38C5B0E0D39D9F330B058A763</string>
-				<string>E0877CF25EFF59E00A7395C4FADF806B</string>
+				<string>3629DD1623ED7C5A3F39F8FECC09F6DD</string>
+				<string>B0C8D097CF0D017DEDE2D7579E3579BD</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -673,31 +899,18 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>92FEF5F38C5B0E0D39D9F330B058A763</key>
+		<key>94E92B28A5AF3478251705B46FC8586F</key>
 		<dict>
-			<key>children</key>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>30EC113CB4A7D665E0973187200E46B0</string>
+				<string>1E615E9CA3F7C983E82758A5B9F64D21</string>
 			</array>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>994903E9978706D3DC450304773EEF4E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-Bepid Chat-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
 		<key>9B868F9FEB46D3020035A87F5329FC19</key>
 		<dict>
@@ -729,6 +942,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>9D282D7B56ED19A52694475DE484C325</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A02112CE2F63A84C041084D28ED2C69B</key>
 		<dict>
 			<key>children</key>
@@ -757,6 +983,43 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>A32DCB9FF1680770F7D529A811028A47</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Bepid Chat.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A6B5EDA3F63A26087965A56784658349</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7EC37C3106D8B9A97AB634BC8B4F31C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>A9CF4FC6CB26C05886D6FD55FF95A4EA</key>
 		<dict>
 			<key>children</key>
@@ -772,16 +1035,41 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>ADDBB61243399A1B86C185E50281FF9C</key>
+		<key>AD054BB419651F4E51F6C043A425B21F</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>0DC45AE6042746EA4B00055BDF649C94</string>
+				<string>5E57452F42BD4682DFEB97E1933D6373</string>
+				<string>B488B7625288587ED91759131F7D4250</string>
+				<string>42433D61D23DA924EC1C2C12FAB5763D</string>
+				<string>6E40FB5293A27F60EFFFEBAA76A2D13D</string>
+				<string>340169107C51E1818FBD8BA84083B4DA</string>
+				<string>D45BC136869E51215409905D3EDD1B8C</string>
+				<string>0BE0FD4AE915E8D2D170FB9DE9BA3693</string>
+				<string>B683545647B9C471119E38BD553DAE45</string>
+				<string>A32DCB9FF1680770F7D529A811028A47</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-Bepid Chat</string>
 			<key>path</key>
-			<string>Pods-Bepid Chat.debug.xcconfig</string>
+			<string>Target Support Files/Pods-Bepid Chat</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B0C8D097CF0D017DEDE2D7579E3579BD</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>139989063F6EBA302F92B43722881B98</string>
+				<string>AD054BB419651F4E51F6C043A425B21F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -813,18 +1101,59 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>B8A0A371ACA3CEA1E95692CEBB114BB3</key>
+		<key>B488B7625288587ED91759131F7D4250</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
+			<string>text</string>
 			<key>path</key>
-			<string>Pods-Bepid Chat-umbrella.h</string>
+			<string>Pods-Bepid Chat-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B675907C2277F3D7ED841207B7955E44</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B683545647B9C471119E38BD553DAE45</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-Bepid Chat.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B8AEB2924F0046B93ADE9C539418DF73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_Bepid_Chat.framework</string>
+			<key>path</key>
+			<string>Pods_Bepid_Chat.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -877,33 +1206,9 @@
 			<key>productName</key>
 			<string>Pods-Bepid Chat</string>
 			<key>productReference</key>
-			<string>30EC113CB4A7D665E0973187200E46B0</string>
+			<string>B8AEB2924F0046B93ADE9C539418DF73</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>BDFF09EEEDDC81201D980438DE9EBA2C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6B5B7A11AAC270FF68A99CEF5DFFAC62</string>
-				<string>01D56672331D5B8B91F992C1422143D2</string>
-				<string>326706C4F2886A86803C1474C95D8192</string>
-				<string>23F0D4C65351E39A5556A5A8A2AA24B1</string>
-				<string>33D3B360006E05CF093C5269A42A2D16</string>
-				<string>72E2725C2DD322E9ADD6D21C4C9B1A64</string>
-				<string>994903E9978706D3DC450304773EEF4E</string>
-				<string>B8A0A371ACA3CEA1E95692CEBB114BB3</string>
-				<string>ADDBB61243399A1B86C185E50281FF9C</string>
-				<string>E1E43A1543E2262D9DC2E40D92133EB1</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-Bepid Chat</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-Bepid Chat</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
 		<dict>
@@ -915,6 +1220,19 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C71637A7D81F1864736811B6E130080B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -933,6 +1251,21 @@
 			<string>FirebaseInstanceID</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C94229B92B6A3D325F2D69DC925974A2</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods.framework</string>
+			<key>path</key>
+			<string>Pods.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
 		<key>C988137323ABA327F03FE45C4CD6A62F</key>
 		<dict>
@@ -973,7 +1306,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>92FEF5F38C5B0E0D39D9F330B058A763</string>
+			<string>3629DD1623ED7C5A3F39F8FECC09F6DD</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -982,8 +1315,22 @@
 			<string></string>
 			<key>targets</key>
 			<array>
+				<string>1BA84416B19DF31967CCD7D02D962E49</string>
 				<string>BDE3FD058F100FC3D0785DC6D2C466BC</string>
 			</array>
+		</dict>
+		<key>D45BC136869E51215409905D3EDD1B8C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-Bepid Chat-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D56ED780ADBC5788CA821514FBBCAAED</key>
 		<dict>
@@ -1013,6 +1360,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>D75399519496A0DBD28CF84734A3DDC7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>D9F8BB89EC1E030F12204A51D039AFD4</key>
 		<dict>
 			<key>isa</key>
@@ -1023,6 +1383,19 @@
 			<string>FirebaseDatabase.framework</string>
 			<key>path</key>
 			<string>Frameworks/FirebaseDatabase.framework</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DBEBF772BEEDBC4E535CFD3C970E8919</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1054,29 +1427,30 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>E0877CF25EFF59E00A7395C4FADF806B</key>
+		<key>E151796BBCB376D96AD1C38DD0B21AC6</key>
 		<dict>
-			<key>children</key>
+			<key>buildConfigurations</key>
 			<array>
-				<string>BDFF09EEEDDC81201D980438DE9EBA2C</string>
+				<string>3357DC108E90E5D60583210E57BFAFBB</string>
+				<string>05E84D055894544D21B1595FC6C53FE4</string>
 			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>XCConfigurationList</string>
 		</dict>
-		<key>E1E43A1543E2262D9DC2E40D92133EB1</key>
+		<key>E2E777489EBC0BF8E1E80B87F0F9996A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
+			<string>text</string>
 			<key>path</key>
-			<string>Pods-Bepid Chat.release.xcconfig</string>
+			<string>Pods-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1103,6 +1477,32 @@
 			<string>PBXGroup</string>
 			<key>name</key>
 			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F3168C673007601935FDD8CF0A0C1C66</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4F53192D75EB99D6C9B6BE7F2A55ECD7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>F3E2A571D5E0ADDE8794CB3438F086BC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>

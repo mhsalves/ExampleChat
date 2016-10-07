@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		596CD1147F5DD701900843FB /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 981B278A99CFB9965AFA4BB5 /* Pods.framework */; };
 		9F39FD031DA84CBD00A25443 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F39FD021DA84CBD00A25443 /* Usuario.swift */; };
 		9F64D89E1DA7FB470000762F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F64D89D1DA7FB470000762F /* AppDelegate.swift */; };
 		9F64D8A31DA7FB470000762F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F64D8A11DA7FB470000762F /* Main.storyboard */; };
@@ -17,10 +18,12 @@
 		9FD7DB651DA8239600719A0D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DB641DA8239600719A0D /* Extensions.swift */; };
 		9FD7DB671DA827E200719A0D /* EsqueciSenhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DB661DA827E200719A0D /* EsqueciSenhaViewController.swift */; };
 		9FD7DB691DA829C600719A0D /* CriarContaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FD7DB681DA829C600719A0D /* CriarContaViewController.swift */; };
+		9FFF137E1DA8523C006E3E36 /* PerfilTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FFF137D1DA8523C006E3E36 /* PerfilTableViewController.swift */; };
 		D064C0665A4783AE8937D3AD /* Pods_Bepid_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F112C7A11C8ADF3494EB2C7A /* Pods_Bepid_Chat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		981B278A99CFB9965AFA4BB5 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F39FD021DA84CBD00A25443 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		9F64D89A1DA7FB470000762F /* Bepid Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bepid Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F64D89D1DA7FB470000762F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +36,7 @@
 		9FD7DB641DA8239600719A0D /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		9FD7DB661DA827E200719A0D /* EsqueciSenhaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EsqueciSenhaViewController.swift; sourceTree = "<group>"; };
 		9FD7DB681DA829C600719A0D /* CriarContaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CriarContaViewController.swift; sourceTree = "<group>"; };
+		9FFF137D1DA8523C006E3E36 /* PerfilTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerfilTableViewController.swift; sourceTree = "<group>"; };
 		BC2AB989B8EF9ADE5C67BE70 /* Pods-Bepid Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bepid Chat.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bepid Chat/Pods-Bepid Chat.release.xcconfig"; sourceTree = "<group>"; };
 		C8672CDE041938BE53B5578C /* Pods-Bepid Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bepid Chat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bepid Chat/Pods-Bepid Chat.debug.xcconfig"; sourceTree = "<group>"; };
 		F112C7A11C8ADF3494EB2C7A /* Pods_Bepid_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bepid_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596CD1147F5DD701900843FB /* Pods.framework in Frameworks */,
 				D064C0665A4783AE8937D3AD /* Pods_Bepid_Chat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +134,7 @@
 				9FD7DB611DA81F7100719A0D /* LoginViewController.swift */,
 				9FD7DB661DA827E200719A0D /* EsqueciSenhaViewController.swift */,
 				9FD7DB681DA829C600719A0D /* CriarContaViewController.swift */,
+				9FFF137D1DA8523C006E3E36 /* PerfilTableViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -163,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				F112C7A11C8ADF3494EB2C7A /* Pods_Bepid_Chat.framework */,
+				981B278A99CFB9965AFA4BB5 /* Pods.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -242,7 +249,7 @@
 /* Begin PBXShellScriptBuildPhase section */
 		4B3CEE98BD72075FD3A92B78 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -250,14 +257,14 @@
 			name = "Copy Pods Resources";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bepid Chat/Pods-Bepid Chat-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		BD76DF9653F77C35B6A9C9C9 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -265,14 +272,14 @@
 			name = "Check Pods Manifest.lock";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		FD1FC4493B1B2F88E169F179 /* Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -280,9 +287,9 @@
 			name = "Embed Pods Frameworks";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bepid Chat/Pods-Bepid Chat-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -297,6 +304,7 @@
 				9F39FD031DA84CBD00A25443 /* Usuario.swift in Sources */,
 				9FD7DB621DA81F7100719A0D /* LoginViewController.swift in Sources */,
 				9FD7DB651DA8239600719A0D /* Extensions.swift in Sources */,
+				9FFF137E1DA8523C006E3E36 /* PerfilTableViewController.swift in Sources */,
 				9F64D89E1DA7FB470000762F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

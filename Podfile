@@ -3,11 +3,12 @@
 # Uncomment this line if you're using Swift
 use_frameworks!
 
-target 'Bepid Chat' do
 pod 'Firebase’ 
 pod 'Firebase/Storage'
 pod 'Firebase/Database'
 pod 'Firebase/Auth'
 pod 'Firebase/Core'
+
+target 'Bepid Chat' do
 end
 
