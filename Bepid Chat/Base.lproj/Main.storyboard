@@ -28,7 +28,7 @@
         <!--Login-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Bepid_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="Bepid_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -90,8 +90,19 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Login" id="Dl9-mw-oLP">
-                        <barButtonItem key="rightBarButtonItem" title="Entrar" id="ngj-Ix-70p"/>
+                        <barButtonItem key="rightBarButtonItem" title="Entrar" id="ngj-Ix-70p">
+                            <connections>
+                                <action selector="actionEntrar:" destination="BYZ-38-t0r" id="5rz-Dz-kUh"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="btCriar" destination="sbg-8K-4cH" id="Ucm-oF-jnQ"/>
+                        <outlet property="btEntrar" destination="ngj-Ix-70p" id="iq3-6V-RZE"/>
+                        <outlet property="btEsqueci" destination="NWr-Un-oaN" id="hdB-Dr-wRI"/>
+                        <outlet property="tfEmail" destination="XUW-eB-GOZ" id="ItI-gS-7Ow"/>
+                        <outlet property="tfSenha" destination="83B-M4-pYt" id="a45-AG-Vk7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -154,7 +165,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="b5K-v8-lMX">
             <objects>
-                <tabBarController id="72p-RO-rmC" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="MainController" id="72p-RO-rmC" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="MvD-Tc-smw">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
