@@ -6,6 +6,7 @@ use_frameworks!
 target 'Bepid Chat' do
 
 pod 'Firebase/Core'
+pod 'Firebase/Auth'
 
 end
 
