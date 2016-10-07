@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F39FD031DA84CBD00A25443 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F39FD021DA84CBD00A25443 /* Usuario.swift */; };
 		9F64D89E1DA7FB470000762F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F64D89D1DA7FB470000762F /* AppDelegate.swift */; };
 		9F64D8A31DA7FB470000762F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F64D8A11DA7FB470000762F /* Main.storyboard */; };
 		9F64D8A51DA7FB470000762F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F64D8A41DA7FB470000762F /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F39FD021DA84CBD00A25443 /* Usuario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 		9F64D89A1DA7FB470000762F /* Bepid Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Bepid Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F64D89D1DA7FB470000762F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F64D8A21DA7FB470000762F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 				BC2AB989B8EF9ADE5C67BE70 /* Pods-Bepid Chat.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F39FD011DA84C9B00A25443 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				9F39FD021DA84CBD00A25443 /* Usuario.swift */,
+			);
+			name = Firebase;
 			sourceTree = "<group>";
 		};
 		9F64D8911DA7FB470000762F = {
@@ -98,6 +108,7 @@
 		9FD7DB5A1DA81E4C00719A0D /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				9F39FD011DA84C9B00A25443 /* Firebase */,
 				9FD7DB631DA8237A00719A0D /* Utils */,
 			);
 			name = Model;
@@ -283,6 +294,7 @@
 			files = (
 				9FD7DB671DA827E200719A0D /* EsqueciSenhaViewController.swift in Sources */,
 				9FD7DB691DA829C600719A0D /* CriarContaViewController.swift in Sources */,
+				9F39FD031DA84CBD00A25443 /* Usuario.swift in Sources */,
 				9FD7DB621DA81F7100719A0D /* LoginViewController.swift in Sources */,
 				9FD7DB651DA8239600719A0D /* Extensions.swift in Sources */,
 				9F64D89E1DA7FB470000762F /* AppDelegate.swift in Sources */,
@@ -329,6 +341,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -379,6 +392,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

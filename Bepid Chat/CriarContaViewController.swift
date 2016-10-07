@@ -58,8 +58,18 @@ class CriarContaViewController: UIViewController {
                 self.alertar(titulo: "Erro", mensagem: error.localizedDescription)
                 return
             }
+            self.criarUserNoDatabase(user: user)
             self.enviarParaMainController()
         }
+    }
+    
+    private func criarUserNoDatabase( user : FIRUser ){
+        
+        let usuario = Usuario(user: user)
+        
+        let propRef = FIRDatabase.database().usuarios().child(usuario.key!)
+        propRef.setValue(usuario.dictionaryRepresentation())
+        
     }
     
     private func habilitarUI( _ b : Bool ){

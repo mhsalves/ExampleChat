@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Firebase
 
 extension UIViewController {
     
@@ -22,6 +23,17 @@ extension UIViewController {
     func enviarParaMainController() {
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "MainController") as! UITabBarController
         self.present(vc, animated: true, completion: nil)
+    }
+    
+}
+
+extension FIRDatabase {
+    
+    func usuarios() -> FIRDatabaseReference {
+        
+        let ref = FIRDatabase.database().reference().child("usuarios")
+        
+        return ref
     }
     
 }
