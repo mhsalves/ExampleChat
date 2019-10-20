@@ -1,3 +1,3 @@
-# iOS Chat Messager
+# iOS Chat Messenger
 
-Projeto de chat messager de exemplo trabalhando com Firebase.
+Projeto de chat messenger utilizando Firebase.
